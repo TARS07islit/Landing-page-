@@ -1,0 +1,150 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 120px;
+  background-color: #1f2937;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 120px;
+  background-color: #1f2937;
+}
+
+.hero-text {
+  max-width: 450px;
+}
+
+.hero-text h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-text p {
+  color: #e5e7eb;
+  margin: 20px 0;
+}
+
+.hero-text button {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-img {
+  width: 420px;
+  height: auto;
+}
+
+/* PLANETS */
+.planets-section {
+  padding: 60px 120px;
+  text-align: center;
+}
+
+.planets-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.planets {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 160px;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.planet-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+}
+
+/* QUOTE */
+.quote {
+  background-color: #e5e7eb;
+  padding: 80px 200px;
+}
+
+.quote-text {
+  font-size: 32px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* CTA */
+.cta {
+  margin: 80px 120px;
+  padding: 40px 60px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.cta-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
